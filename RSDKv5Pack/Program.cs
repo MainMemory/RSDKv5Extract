@@ -20,11 +20,12 @@ namespace RSDKv5Pack
 			if (File.Exists(rsdkverpath))
 				dataPack.version = (byte)File.ReadAllText(rsdkverpath)[0];
 			foreach (var file in Directory.EnumerateFiles(args[0], "*", SearchOption.AllDirectories))
-				dataPack.files.Add(new DataPack.File()
-				{
-					name = new NameIdentifier(file.Substring(args[0].Length + 1)),
-					data = File.ReadAllBytes(file)
-				});
+				if (Path.GetFileName(file) != "RSDKVer.txt")
+					dataPack.files.Add(new DataPack.File()
+					{
+						name = new NameIdentifier(file.Substring(args[0].Length + 1)),
+						data = File.ReadAllBytes(file)
+					});
 			dataPack.Write(args.Length > 1 ? args[1] : args[0] + ".rsdk");
 			stopwatch.Stop();
 			Console.WriteLine("Wrote {0} files in {1} seconds.", dataPack.files.Count, stopwatch.ElapsedMilliseconds / 1000m);
