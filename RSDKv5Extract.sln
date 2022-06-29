@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSDKv5Extract", "RSDKv5Extract\RSDKv5Extract.csproj", "{97B687D3-703E-49E8-9345-A201697215C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSDKv5Pack", "RSDKv5Pack\RSDKv5Pack.csproj", "{987EAC60-BE71-4460-8982-ABAB6AAA1531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97B687D3-703E-49E8-9345-A201697215C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B687D3-703E-49E8-9345-A201697215C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B687D3-703E-49E8-9345-A201697215C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B687D3-703E-49E8-9345-A201697215C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987EAC60-BE71-4460-8982-ABAB6AAA1531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987EAC60-BE71-4460-8982-ABAB6AAA1531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987EAC60-BE71-4460-8982-ABAB6AAA1531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987EAC60-BE71-4460-8982-ABAB6AAA1531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48DE4674-D64A-4C03-B12C-16EEF94D64CA}
+	EndGlobalSection
+EndGlobal
