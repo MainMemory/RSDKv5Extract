@@ -2404,7 +2404,9 @@ Data/Sprites/Global/Announcer.bin
 Data/Sprites/Global/Announcer.gif
 Data/Sprites/Global/Capsule.bin
 Data/Sprites/Global/Display.gif
+Data/Sprites/Global/Display_a.gif
 Data/Sprites/Global/Display_t.gif
+Data/Sprites/Global/Display_k.gif
 Data/Sprites/Global/DPad.gif
 Data/Sprites/Global/Dust.bin
 Data/Sprites/Global/Eggman.gif
@@ -2417,7 +2419,9 @@ Data/Sprites/Global/Invincible.bin
 Data/Sprites/Global/ItemBox.bin
 Data/Sprites/Global/Items.gif
 Data/Sprites/Global/Items2.gif
+Data/Sprites/Global/Items2_a.gif
 Data/Sprites/Global/Items2_t.gif
+Data/Sprites/Global/Items2_k.gif
 Data/Sprites/Global/Items3.gif
 Data/Sprites/Global/Objects.gif
 Data/Sprites/Global/Objects2.gif
@@ -2968,8 +2972,11 @@ Data/Sprites/SM_Players/Tails1.gif
 Data/Sprites/SM_Players/Tails2.gif
 Data/Sprites/SM_Players/Tails3.gif
 Data/Sprites/SM_Players/TailSprite.bin
+Data/Sprites/Special/Amy.gif
 Data/Sprites/Special/Background.gif
 Data/Sprites/Special/Emeralds.gif
+Data/Sprites/Special/Knux.gif
+Data/Sprites/Special/Knuckles.gif
 Data/Sprites/Special/Objects.gif
 Data/Sprites/Special/Results.bin
 Data/Sprites/Special/Results.gif
